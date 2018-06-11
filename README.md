@@ -1,6 +1,4 @@
-# small-projects
-
-A collection of all those small projects that don't warrant their own repository.
+### A collection of all those small projects that don't warrant their own repository.
 
 # sleep
 
