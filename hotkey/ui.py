@@ -1,0 +1,96 @@
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_MainWindow(object):
+
+	def setupUi(self, MainWindow):
+		MainWindow.setObjectName("MainWindow")
+		MainWindow.resize(388, 61)
+		sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Minimum)
+		sizePolicy.setHorizontalStretch(0)
+		sizePolicy.setVerticalStretch(0)
+		sizePolicy.setHeightForWidth(MainWindow.sizePolicy().hasHeightForWidth())
+		MainWindow.setSizePolicy(sizePolicy)
+		self.centralwidget = QtWidgets.QWidget(MainWindow)
+		self.centralwidget.setObjectName("centralwidget")
+		self.horizontalLayout = QtWidgets.QHBoxLayout(self.centralwidget)
+		self.horizontalLayout.setObjectName("horizontalLayout")
+		self.checkbox_ctrl = QtWidgets.QCheckBox(self.centralwidget)
+		self.checkbox_ctrl.setObjectName("checkbox_ctrl")
+		self.horizontalLayout.addWidget(self.checkbox_ctrl)
+		self.checkbox_shift = QtWidgets.QCheckBox(self.centralwidget)
+		self.checkbox_shift.setObjectName("checkbox_shift")
+		self.horizontalLayout.addWidget(self.checkbox_shift)
+		self.checkbox_alt = QtWidgets.QCheckBox(self.centralwidget)
+		self.checkbox_alt.setObjectName("checkbox_alt")
+		self.horizontalLayout.addWidget(self.checkbox_alt)
+		self.dropdown_letters = QtWidgets.QComboBox(self.centralwidget)
+		self.dropdown_letters.setObjectName("dropdown_letters")
+		self.horizontalLayout.addWidget(self.dropdown_letters)
+		self.button_viewcode = QtWidgets.QPushButton(self.centralwidget)
+		self.button_viewcode.setObjectName("button_viewcode")
+		self.horizontalLayout.addWidget(self.button_viewcode)
+		self.button_set = QtWidgets.QPushButton(self.centralwidget)
+		self.button_set.setObjectName("button_set")
+		self.horizontalLayout.addWidget(self.button_set)
+		self.button_start = QtWidgets.QPushButton(self.centralwidget)
+		self.button_start.setObjectName("button_start")
+		self.horizontalLayout.addWidget(self.button_start)
+		self.button_stop = QtWidgets.QPushButton(self.centralwidget)
+		self.button_stop.setObjectName("button_stop")
+		self.horizontalLayout.addWidget(self.button_stop)
+		MainWindow.setCentralWidget(self.centralwidget)
+		self.status_bar = QtWidgets.QStatusBar(MainWindow)
+		self.status_bar.setObjectName("status_bar")
+		MainWindow.setStatusBar(self.status_bar)
+
+		self.retranslateUi(MainWindow)
+		QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+	def retranslateUi(self, MainWindow):
+		_translate = QtCore.QCoreApplication.translate
+		MainWindow.setWindowTitle(_translate("MainWindow", "Hotkey v1.0"))
+		self.checkbox_ctrl.setText(_translate("MainWindow", "Ctrl"))
+		self.checkbox_shift.setText(_translate("MainWindow", "Shift"))
+		self.checkbox_alt.setText(_translate("MainWindow", "Alt"))
+		self.button_viewcode.setText(_translate("MainWindow", "View Code"))
+		self.button_set.setText(_translate("MainWindow", "Set"))
+		self.button_start.setText(_translate("MainWindow", "Start"))
+		self.button_stop.setText(_translate("MainWindow", "Stop"))
+
+class Ui_Dialog(object):
+
+	def setupUi(self, Dialog):
+		Dialog.setObjectName("Dialog")
+		Dialog.resize(400, 300)
+		self.verticalLayout = QtWidgets.QVBoxLayout(Dialog)
+		self.verticalLayout.setObjectName("verticalLayout")
+		self.field_code = QtWidgets.QPlainTextEdit(Dialog)
+		self.field_code.setObjectName("field_code")
+		self.verticalLayout.addWidget(self.field_code)
+		self.field_terminal = QtWidgets.QPlainTextEdit(Dialog)
+		self.field_terminal.setObjectName("field_terminal")
+		self.verticalLayout.addWidget(self.field_terminal)
+		self.horizontalLayout_2 = QtWidgets.QHBoxLayout()
+		self.horizontalLayout_2.setObjectName("horizontalLayout_2")
+		self.button_start = QtWidgets.QPushButton(Dialog)
+		self.button_start.setObjectName("button_start")
+		self.horizontalLayout_2.addWidget(self.button_start)
+		self.button_ok = QtWidgets.QPushButton(Dialog)
+		self.button_ok.setObjectName("button_ok")
+		self.horizontalLayout_2.addWidget(self.button_ok)
+		self.button_cancel = QtWidgets.QPushButton(Dialog)
+		self.button_cancel.setObjectName("button_cancel")
+		self.horizontalLayout_2.addWidget(self.button_cancel)
+		self.verticalLayout.addLayout(self.horizontalLayout_2)
+
+		self.field_terminal.setReadOnly(True)
+
+		self.retranslateUi(Dialog)
+		QtCore.QMetaObject.connectSlotsByName(Dialog)
+
+	def retranslateUi(self, Dialog):
+		_translate = QtCore.QCoreApplication.translate
+		Dialog.setWindowTitle(_translate("Dialog", "Terminal"))
+		self.button_start.setText(_translate("Dialog", "Run"))
+		self.button_ok.setText(_translate("Dialog", "OK"))
+		self.button_cancel.setText(_translate("Dialog", "Cancel"))
