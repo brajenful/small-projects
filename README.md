@@ -6,4 +6,8 @@ Sleep sort script, input is integers separated by spaces.
 
 # window-closer
 
-Takes the title of a currently open window as input, and closes said window.
+Takes the title of a currently open window as input and closes it.
+
+# hotkey
+
+You can write your own Python script and execute it using a key sequence.
