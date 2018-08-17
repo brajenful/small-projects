@@ -11,3 +11,7 @@ Takes the title of a currently open window as input and closes it.
 # hotkey
 
 You can write your own Python script and execute it using a key sequence.
+
+# random-file
+
+Generates a random file with set number of random 0s and 1s.
