@@ -14,4 +14,8 @@ You can write your own Python script and execute it using a key sequence.
 
 # random-file
 
-Generates a random file with set number of random 0s and 1s.
+Generates a random file with set number of random 0s and 1s. It's very very inefficient, but let's be honest, I didn't make this one to be useful to anyone.
+
+# despacito
+
+Starts playing Despacito on YouTube whenever a previously running process has been closed.
