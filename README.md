@@ -18,4 +18,4 @@ Generates a random file with set number of random 0s and 1s. It's very very inef
 
 # despacito
 
-Starts playing Despacito on YouTube whenever a previously running process has been closed.
+Starts playing Despacito on YouTube whenever a previously running process is closed.
