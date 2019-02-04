@@ -12,7 +12,7 @@ class MemeGenerator:
 	def __init__(self, bot):
 		self.bot = bot
 
-		self.config_path = 'F:/github/voltbot_v2/resources/meme_generator/templates.json'
+		self.config_path = '/resources/meme_generator/templates.json'
 		with open(self.config_path, 'r') as file:
 			self.config = json.loads(file.read())
 
