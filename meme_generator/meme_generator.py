@@ -53,7 +53,8 @@ class MemeGenerator:
 
 	@commands.command(brief='Creates an expanding brain meme.')
 	async def brain(self, ctx, *, text):
-		self.get_template_info('expanding_brain') #This is the line that tells the code which template to use. Just change its parameter to the name of the template you want to use, and that should do it.
+		self.get_template_info('expanding_brain') #This is the line that tells the code which template to use. 
+							  #Just change its parameter to the name of the template you want to use, and that should do it.
 		await self.generate_meme(ctx, text)
 
 def setup(bot):
