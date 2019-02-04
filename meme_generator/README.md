@@ -13,4 +13,4 @@ Anyway, the idea is that you have a config file (templates.json), which contains
 
 You'll find some more info in the comments.
 
-Keep in mind, this is by no mean a professional work, nor did I ever intend it to be. Yes, I know the code looks bad, and there's probably better ways to do what I did. Regardless, feedback and constructive criticism is welcome and appreciated.
+Keep in mind, this is by no means a professional work, nor did I ever intend it to be. Yes, I know the code looks bad, and there's probably better ways to do what I did. Regardless, feedback and constructive criticism is welcome and appreciated.
