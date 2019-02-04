@@ -3,7 +3,7 @@
 One of the many custom-made extensions for my private Discord bot. What it does it takes a standard meme template with x amount of panels, and puts parts of the passed string in their respective panels.
 
 ### Dependencies: 
-Because this is an extensions for a discord bot, you'll have to have one already set up, and it needs to be using the rewrite branch of discord.py.
+Because this is an extension for a Discord bot, you'll have to have one already set up, and it needs to be using the rewrite branch of discord.py.
 Also, for image processing, I used [Pillow](https://github.com/python-pillow/Pillow), so you'll need that as well.
 
 ### How to use:
