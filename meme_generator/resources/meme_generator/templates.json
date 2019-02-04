@@ -1,0 +1,24 @@
+{
+	"template_folder" : "/resources/meme_generator/templates",
+	"fonts_folder" : "/resources/meme_generator/fonts",
+	"output_folder" : "/saved/meme_generator",
+	"templates" : 
+	{
+		"expanding_brain" : 
+		{
+			"panel_count" : 4,
+			"panel_width" : 20,
+			"coordinates" : [
+				[15, 15],
+			 	[15, 195],
+			 	[15, 370], 
+			 	[15, 540]
+			 ],
+			"template_file" : "expanding_brain_template.png",
+			"output_subfolder" : "expanding_brain",
+			"font" : "arial.ttf",
+			"font_size" : 26,
+			"offset" : 30
+		}
+	}
+}
