@@ -46,7 +46,7 @@ class MemeGenerator:
 				offset += self.offset
 
 		output_path = f'{self.output_path}/{ctx.message.author.name}_{ctx.message.id}.jpg'
-		self.image.save(output_path)
+		self.image.save(output_path) #If you don't want to save the image locally, comment this line out.
 
 		with open(output_path, 'rb') as file:
 			await ctx.send(file=discord.File(file))
