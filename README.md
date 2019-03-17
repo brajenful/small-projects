@@ -19,3 +19,7 @@ Generates a random file with set number of random 0s and 1s. It's very very inef
 # despacito
 
 Starts playing Despacito on YouTube whenever a previously running process is closed.
+
+# meme_generator
+
+One of the many custom-made extensions for my private Discord bot. What it does it takes a standard meme template with x amount of panels, and puts parts of the passed string in their respective panels.
