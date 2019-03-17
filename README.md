@@ -23,3 +23,7 @@ Starts playing Despacito on YouTube whenever a previously running process is clo
 # meme_generator
 
 One of the many custom-made extensions for my private Discord bot. What it does it takes a standard meme template with x amount of panels, and puts parts of the passed string in their respective panels.
+
+# xbox-music-controller
+
+A small script that lets you control media applications with your XBOX 360 or XBOX One controller. It does so by mapping the multimedia buttons to the controller's buttons.
