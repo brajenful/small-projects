@@ -1,26 +1,7 @@
 import inputs
 import keyboard
 import asyncio
-"""
-def main():
-	
-	buttons = {'BTN_START': None, 'BTN_SELECT': 'play/pause', 'BTN_SOUTH': 'volume down', 'BTN_EAST': 'next track', 'BTN_NORTH': 'volume up', 'BTN_WEST': 'previous track'}
-	flag = False
 
-	while True:
-		events = get_gamepad()
-		for event in events:
-
-			if event.code == 'BTN_START':
-				flag = event.state
-				continue
-			if event.code in buttons.keys():
-				if flag and event.state == 1:
-					press_media_key(buttons[event.code])
-
-def press_media_key(key):
-	keyboard.send(key)
-"""
 class ControllerListener:
 
 	def __init__(self):
